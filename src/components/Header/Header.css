@@ -1,0 +1,36 @@
+.nav{
+    color : #D47F00;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+.nav:hover{
+    color: white;
+    background: #D47F00;
+}
+.navButton{
+    background: #D47F00;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 9px;
+    text-decoration: none !important;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.navButton:hover{
+    background: white !important;
+}
+@media screen and (max-width: 500px){
+   .nav{
+       font-size: 10px;
+       margin-right: 5px;
+   }
+   .navButton{
+       font-size: 10px;
+       margin-left: 5px;
+       padding: 4px;
+   }
+}
